@@ -31,9 +31,21 @@ This repository contains Python projects I built while practicing programming fu
 -Reading CSV files
 - `csv.DictReader`
 - Working with external data
+- Writing CSV files
+- `csv.DictWriter`
+- Searching stored records
+- Menu-driven programs
+- Persistent data storage
 ### CSV Student Report Manager
 - Reads student data from a CSV file
 - Uses `csv.DictReader`
 - Assigns grades based on marks
 - Calculates average, highest, and lowest marks
 - Displays the total number of students
+### CSV Contact Manager
+- Displays saved contacts
+- Adds new contacts to a CSV file
+- Searches contacts by name
+- Uses `csv.DictReader` and `csv.DictWriter`
+- Stores contact data persistently in `contacts.csv`
+
