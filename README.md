@@ -36,6 +36,11 @@ This repository contains Python projects I built while practicing programming fu
 - Searching stored records
 - Menu-driven programs
 - Persistent data storage
+- Random password generation
+- `random` and `string` modules
+- Character set combination
+- Input validation with `try/except`
+- Breaking programs into functions
 ### CSV Student Report Manager
 - Reads student data from a CSV file
 - Uses `csv.DictReader`
@@ -48,4 +53,11 @@ This repository contains Python projects I built while practicing programming fu
 - Searches contacts by name
 - Uses `csv.DictReader` and `csv.DictWriter`
 - Stores contact data persistently in `contacts.csv`
+### Password Generator
+- Generates random passwords based on user-selected length
+- Lets the user choose whether to include symbols
+- Guarantees letters and numbers in every password
+- Includes at least one symbol when symbols are enabled
+- Shuffles characters before displaying the final password
+- Validates user input
 
