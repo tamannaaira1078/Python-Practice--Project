@@ -41,6 +41,13 @@ This repository contains Python projects I built while practicing programming fu
 - Character set combination
 - Input validation with `try/except`
 - Breaking programs into functions
+- Working with APIs
+- HTTP GET requests
+- `requests` library
+- JSON response handling
+- Status code checking
+- Virtual environments
+- Managing dependencies with `requirements.txt`
 ### CSV Student Report Manager
 - Reads student data from a CSV file
 - Uses `csv.DictReader`
@@ -60,4 +67,16 @@ This repository contains Python projects I built while practicing programming fu
 - Includes at least one symbol when symbols are enabled
 - Shuffles characters before displaying the final password
 - Validates user input
+### API Joke Fetcher
+- Fetches a random joke from a public API
+- Sends HTTP GET requests using `requests`
+- Checks the response status code
+- Parses JSON data from the API response
+- Displays the joke setup and punchline
+### File Search Tool
+- Searches files by exact filename
+- Searches by file extension
+- Searches using keywords
+- Supports regex-based searching
+- Uses the `os` and `re` modules
 
