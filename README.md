@@ -55,6 +55,16 @@ This repository contains Python projects I built while practicing programming fu
 - Checks the response status code
 - Parses JSON data from the API response
 - Displays the joke setup and punchline
+## Duck Typing + EAFP Practice
+
+A small Python exercise demonstrating:
+
+- Duck typing
+- EAFP (Easier to Ask Forgiveness than Permission)
+- `try/except`
+- Handling `AttributeError`
+- Using the same interface across different classes
+
 
 ## Skills Practiced
 
@@ -86,3 +96,5 @@ This repository contains Python projects I built while practicing programming fu
 - Virtual environments
 - Managing dependencies with `requirements.txt`
 - Breaking programs into functions
+- Duck typing
+- EAFP
