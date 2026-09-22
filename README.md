@@ -64,6 +64,13 @@ A small Python exercise demonstrating:
 - `try/except`
 - Handling `AttributeError`
 - Using the same interface across different classes
+### Employee Salary Report
+- Stores employee data using `namedtuple`
+- Filters employees based on a minimum salary
+- Uses a generator with `yield` to produce matching employees
+- Uses a decorator to display a report message
+- Preserves function metadata with `functools.wraps`
+- Handles invalid user input with `try/except`
 
 
 ## Skills Practiced
@@ -98,3 +105,9 @@ A small Python exercise demonstrating:
 - Breaking programs into functions
 - Duck typing
 - EAFP
+- `namedtuple`
+- Generators and `yield`
+- Decorators
+- `functools.wraps`
+- `*args` and `**kwargs`
+- Filtering data with functions
