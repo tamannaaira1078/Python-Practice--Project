@@ -28,6 +28,6 @@ with open("students.csv", "r") as csv_file:
         print(f"{line['name']:<20}{marks:<10}{grade:<8}")  
     print("-"*40) 
     print(f"{'Average Marks'}:{sum(all_marks)/len(all_marks):.2f}") 
-    print(f"{'Highest Marks'}:{max(all_marks):.2f}")  
-    print(f"{'Lowest Marks'}:{min(all_marks):.2f}")
+    print(f"{'Highest Marks'}:{max(all_marks):}")  
+    print(f"{'Lowest Marks'}:{min(all_marks):}")
     print(f"{'Total Students'}:{len(all_marks)}")      
