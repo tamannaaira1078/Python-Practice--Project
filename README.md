@@ -71,6 +71,15 @@ A small Python exercise demonstrating:
 - Uses a decorator to display a report message
 - Preserves function metadata with `functools.wraps`
 - Handles invalid user input with `try/except`
+### Bank Account OOP
+- Models bank accounts using Python classes
+- Uses properties and setters to validate account balance
+- Supports deposits and withdrawals with validation
+- Uses inheritance to create a `SavingsAccount`
+- Applies interest to savings accounts
+- Overrides methods in the child class
+- Uses `super()` to reuse parent class behavior
+- Implements `__str__` for readable object output
 
 
 ## Skills Practiced
@@ -111,3 +120,11 @@ A small Python exercise demonstrating:
 - `functools.wraps`
 - `*args` and `**kwargs`
 - Filtering data with functions
+- Object-oriented programming
+- Classes and objects
+- Inheritance
+- `super()`
+- Properties and setters
+- Method overriding
+- `__str__`
+- Data validation with exceptions
