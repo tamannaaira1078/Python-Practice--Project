@@ -80,7 +80,34 @@ A small Python exercise demonstrating:
 - Overrides methods in the child class
 - Uses `super()` to reuse parent class behavior
 - Implements `__str__` for readable object output
+# Digital Clock
 
+A simple digital clock built with Python and Tkinter.
+
+The application displays the current time and date and updates automatically every second.
+
+## Features
+
+- Displays the current time
+- Displays the current date
+- Updates every second
+- Simple graphical user interface
+- Built using Python's built-in Tkinter library
+
+## Technologies Used
+
+- Python
+- Tkinter
+- `time.strftime()`
+
+## How It Works
+
+The program uses `strftime()` from Python's `time` module to get the current time and date.
+
+A function updates the Tkinter label every second using:
+
+```python
+label.after(1000, time)
 
 ## Skills Practiced
 
@@ -128,3 +155,8 @@ A small Python exercise demonstrating:
 - Method overriding
 - `__str__`
 - Data validation with exceptions
+- Creating a GUI using Tkinter
+- Working with labels and window properties
+- Formatting dates and times using strftime()
+- Updating GUI elements dynamically
+- Using Tkinter's after() method
